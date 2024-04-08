@@ -1,0 +1,26 @@
+@media (max-width: 576px) {
+    .container{
+        width: 430px;
+        height: 932px; 
+    }
+   .burgerMenu{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.burgerMenuNone{
+    display: none;
+}
+
+.burgerList{
+    height: 5px;
+    background-color: green;
+}
+
+.menuClosed{
+    display: none;
+}
+}
+
